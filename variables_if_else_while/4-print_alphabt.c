@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
-*main: functio main entry point
-*Description: alph but q e
+*main - functio main entry point
+*Description: delete q, e
 *Return: 0
 */
 int main(void)
