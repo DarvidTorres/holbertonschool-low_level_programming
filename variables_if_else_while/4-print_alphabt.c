@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
 *main: functio main entry point
 *Description: print alphabet with exceptions
@@ -13,8 +13,8 @@ if (l != 'e' && l != 'q')
 {
 putchar(l);
 }
-l++
+l++;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
