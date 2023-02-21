@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
 *main: functio main entry point
-*Description: print alphabet with exceptions
+*Description: alphabet nor q e
 *Return: 0
 */
 int main(void)
