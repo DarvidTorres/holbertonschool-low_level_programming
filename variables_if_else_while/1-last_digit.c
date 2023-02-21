@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main - function entry point
+*main - function main is entry point
 *Description: get last digit and print message
-*return: 0
+*Return: 0
 */
 int main(void)
 {
