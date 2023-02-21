@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
-*main - get last digit from variable
-*Description: print message
+*main - function entry point
+*Description: get last digit and print message
 *return: 0
 */
 
