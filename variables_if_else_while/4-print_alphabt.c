@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
 *main: functio main entry point
-*Description: alphabet nor q e
+*Description: alph but q e
 *Return: 0
 */
 int main(void)
