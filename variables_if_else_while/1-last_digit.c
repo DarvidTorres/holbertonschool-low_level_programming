@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-* main - get last digit from variable
-* Description: print message
-* return 0
+*main - get last digit from variable
+*Description: print message
+*return: 0
 */
 
 int main(void)
