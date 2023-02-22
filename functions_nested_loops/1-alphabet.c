@@ -1,11 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 /**
 *main - main function entry point
 *Description: print lowrcase alphabet
 *Return: 0
 */
-int main(void)
+void print_alphabet(void)
 {
 char i = 'a';
 while (i <= 'z')
