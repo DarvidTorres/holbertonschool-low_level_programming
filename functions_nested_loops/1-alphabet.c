@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*main - main function entry point
+*_putchar - writes the character c to stdout
 *Description: print lowrcase alphabet
 *Return: 0
 */
