@@ -4,7 +4,7 @@
 *Desciption: print alphabet 10x
 *Return: 0
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 char i = 'a';
 int n = 0;
