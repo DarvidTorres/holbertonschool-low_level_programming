@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
 *print_last_digit - function selfexplanatory
@@ -7,16 +6,21 @@
 */
 int print_last_digit(int n)
 {
-int l = 0;
-l = n % 10;
-if (n < 10)
+int m;
+if (n > 0)
 {
-_putchar(l + 48);
-return (-l);
+m = n % 10;
+_putchar(m + '0');
+}
+else if (n == 0)
+{
+m = 0;
+_putchar(m + '0');
 }
 else
 {
-_putchar(l + 48);
-return (l);
+m = n % 10 * (-1);
+_putchar(m + '0');
 }
+return (m);
 }
