@@ -7,9 +7,10 @@
 void print_alphabet(void)
 {
 char i = 'a';
-int n = '0';
-while (n < '10')
+int n;
+while (n < 10)
 {
+n = 0;
 while (i <= 'z')
 {
 _putchar(i);
