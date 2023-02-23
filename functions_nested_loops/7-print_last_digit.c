@@ -11,13 +11,12 @@ int l = 0;
 l = n % 10;
 if (n < 10)
 {
-l = l * -1;
-_putchar(l + '0');
-return (l);
+_putchar(l + 48);
+return (-l);
 }
 else
 {
-_putchar(l + '0');
+_putchar(l + 48);
 return (l);
 }
 }
