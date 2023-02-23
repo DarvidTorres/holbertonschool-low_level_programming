@@ -4,19 +4,17 @@
 *Description: print lowrcase alphabet
 *Return: 0
 */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-char i = 'a';
-int n;
-while (n < 10)
+int i = 0;
+char c;
+while (i < 10)
 {
-n = 0;
-while (i <= 'z')
+for (c = 'a'; c <= 'z'; c++)
 {
-_putchar(i);
-i++;
+ _putchar(c);
 }
 _putchar('\n');
-n++;
+i++;
 }
 }
