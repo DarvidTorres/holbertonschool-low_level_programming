@@ -2,7 +2,6 @@
 /**
 *jack_bauer - void function
 *Description: print combinations of the form 00:00
-*@n: variable
 *Return: 0
 */
 void jack_bauer(void)
