@@ -5,18 +5,18 @@
 *Return: 0
 */
 void more_numbers(void)
-int i;
 {
-for (i = 0; i <15; i++)
+int a,b;
+for (a = 0; a <= 9; a++)
 {
-if (i > 9)
+for (b = 0; b <= 14; b++)
 {
-_putchar('0' + i / 10);
-_putchar('0' + i % 10);
+for (b = 0; b <= 14; b++)
+{
+if (b > 9)
+_putchar((b / 10) + '0');
+_putchar((b % 10) + '0');
 }
-else
-{
-_putchar('0'+i);
-}
+_putchar('\n');
 }
 }
