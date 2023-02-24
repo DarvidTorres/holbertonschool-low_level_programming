@@ -1,16 +1,27 @@
 #include<stdio.h>
 #include"main.h"
 /**
-*print_line - function
+*print_diagonal - function
 *@n: variable
 */
-void print_line(int n)
+void print_diagonal(int n) 
+{  
+int i;
+int j;  
+for (i = 1; i <= n; i++)    
 {
-int i = 1;
-while (i <= n)
-{ 
-_putchar('_');
-i++;
+for (j = 1; j < i; j++)	
+{
+if (i != 1)    
+{
+_putchar(' ');	      
+}  
+}     
+_putchar('\\');     
+_putchar('\n');     
+}  
+if (n <= 0)
+{   
 _putchar('\n');
-}
+} 
 }
