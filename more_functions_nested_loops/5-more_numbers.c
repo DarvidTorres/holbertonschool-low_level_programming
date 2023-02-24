@@ -11,7 +11,7 @@ while (k < 10)
 {
 for (i = 0; i < 15; i++)
 {
-_putchar('i');
+_putchar('0' + i);
 }
 k++;
 _putchar('\n');
