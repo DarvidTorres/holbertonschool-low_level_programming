@@ -1,19 +1,18 @@
 #include "main.h"
 /**
 *_isupper - check uppercase
-*Description: use isupper defined function
-*@c: variabe
-*Return: 0
+*Description: define an isuper function
+*@c: parameter
+*Return: 1 or 0
 */
 int _isupper(int c)
 {
-char c;
-if (_isupper(c) == 1)
-{
-_putchar("%d", 1);
+if (c >= 'A' && c <= 'Z')
+{    
+return (1);
 }
 else
 {
-_putchar("%d",0);
+return (0);    
 }
 }
