@@ -3,7 +3,7 @@
 *print_line - print lines depending on input
 *@n: parameter
 */
-void ptint_line(int n)
+void print_line(int n)
 {
 int l;
 if (n > 0)
