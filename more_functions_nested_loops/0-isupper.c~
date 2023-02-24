@@ -1,0 +1,20 @@
+#include "main.h"
+#include <stdio.h>
+/**
+*_isupper - check uppercase
+*Description: use isupper defined function
+*@c: variabe
+*Return: 0
+*/
+int _isupper(int c)
+{
+char c;
+if (_isupper(c) == 1)
+{
+printf("%d", 1);
+}
+else
+{
+printf("%d",0);
+}
+}
