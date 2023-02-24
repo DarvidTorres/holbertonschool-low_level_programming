@@ -4,24 +4,24 @@
 *print_diagonal - function
 *@n: variable
 */
-void print_diagonal(int n) 
-{  
+void print_diagonal(int n)
+{
 int i;
-int j;  
-for (i = 1; i <= n; i++)    
+int j;
+for (i = 1; i <= n; i++)
 {
-for (j = 1; j < i; j++)	
+for (j = 1; j < i; j++)
 {
-if (i != 1)    
+if (i != 1)
 {
-_putchar(' ');	      
-}  
-}     
-_putchar('\\');     
-_putchar('\n');     
-}  
-if (n <= 0)
-{   
+_putchar(' ');
+}
+}
+_putchar('\\');
 _putchar('\n');
-} 
+}
+if (n <= 0)
+{
+_putchar('\n');
+}
 }
