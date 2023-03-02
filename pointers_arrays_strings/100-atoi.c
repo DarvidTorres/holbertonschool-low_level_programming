@@ -2,7 +2,7 @@
 /**
 *_atoi - convert string to integer
 *@s: parameter
-*return: integer
+*Return: integer
 */
 int _atoi(char *s)
 {
@@ -23,7 +23,7 @@ ni = (ni * 10) + (s[c] - '0');
 c++;
 }
 if (isi == 1)
-{      
+{
 break;
 }
 c++;
