@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 *strcat - function to concatenate strings
 *@dest: parameter
