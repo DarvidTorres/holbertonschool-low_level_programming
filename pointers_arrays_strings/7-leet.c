@@ -2,10 +2,10 @@
 #include "main.h"
 /**
 *leet - function that encodes a string into 1337
-*@str: parameter
+*@c: parameter
 *Return: 0;
 */
-char *leet(char *str)
+char *leet(char *c)
 {
 int i = 0;
 int n;
