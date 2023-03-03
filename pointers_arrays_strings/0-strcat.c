@@ -3,7 +3,7 @@
 *_strcat - function to concatenate strings
 *@dest: parameter
 *@src: parameter
-*Retrn: char
+*Retrn: 0;
 */
 char *_strcat(char *dest, char *src)
 {
