@@ -7,17 +7,22 @@
 */
 char *leet(char *str)
 {
-int i1 = 0, i2;
-char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
-while (str[i1])
+int i = 0;
+int n;
+char a[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L', '\0'};
+char b[] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1', '\0'};
+while (c[i] != '\0')
 {
-for (i2 = 0; i2 <= 7; i2++)
+n = 0;
+while (a[n] != '\0')
 {
-if (str[i1] == leet[i2] ||
-str[i1] - 32 == leet[i2])
-str[i1] = i2 + '0';
+if (c[i] == a[n])
+{
+c[i] = b[n];
 }
-1i++;
+n++;
 }
-return (str);
+i++;
+}
+return (c);
 }
