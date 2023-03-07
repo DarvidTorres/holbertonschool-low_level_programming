@@ -2,6 +2,7 @@
 /**
 *factorial - recursive multiplication
 *@n: parameter
+*Return: integer
 */
 int factorial(int n)
 {
