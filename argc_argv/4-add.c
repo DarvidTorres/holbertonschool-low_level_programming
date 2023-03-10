@@ -15,7 +15,7 @@ for (n1 = 1; n1 < argc; n1++)
 {
 for (n2 = 0; argv[n1][n2] != '\0'; n2++)
 {
-if ((argv[n1][n2] < '0' || argv[n1][n2] > '9')
+if ((argv[n1][n2] < '0') || argv[n1][n2] > '9')
 {
 printf("Error\n");
 return (1);
