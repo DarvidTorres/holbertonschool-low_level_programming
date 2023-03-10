@@ -1,5 +1,5 @@
 #include <stdio.h>
-#incldue <stdlib.h>
+#include <stdlib.h>
 /**
 *main - function
 *@argc: argument counter
