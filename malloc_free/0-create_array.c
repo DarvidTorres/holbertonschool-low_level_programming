@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-*createe_array - function
+*create_array - function
 *@size: int
 *@c: char
 *Return: char *
