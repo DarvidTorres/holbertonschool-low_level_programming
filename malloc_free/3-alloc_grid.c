@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <sdlib.h>
+#include <stdlib.h>
 #include "main.h"
 /**
 *alloc_grid - returns a pointer to a 2n-int-array
