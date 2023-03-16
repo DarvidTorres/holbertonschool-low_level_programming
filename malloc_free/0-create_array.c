@@ -23,7 +23,7 @@ return (NULL);
 i = 0;
 while (i < size)
 {
-[i] = c;
+a[i] = c;
 i++;
 }
 a[i] = '\0';
