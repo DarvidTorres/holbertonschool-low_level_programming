@@ -26,7 +26,7 @@ len = strlen(s1);
 len2 = strlen(s2);
 if (n > len2)
 {
-cat = malloc((len + len2) + 1);
+cat = malloc((len + len2)+1);
 }
 else
 {
