@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
- * *init_dog - function
- * @d: parameter
- * @name: parameter
- * @age: parameter
- * @owner: parameter
- * *Return: 0
- * */
+*init_dog - function
+*@d: parameter
+*@name: parameter
+*@age: parameter
+*@owner: parameter
+*Return: 0
+*/
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 if (d)
