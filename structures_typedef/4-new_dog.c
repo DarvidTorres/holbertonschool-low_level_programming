@@ -46,7 +46,7 @@ for (i = 0; i < lenName + 1; i++)
 {
 newDog->name[i] = name[i];
 }
-for (j = 0; j< lenOwner + 1; j++)
+for (j = 0; j < lenOwner + 1; j++)
 {
 newDog->owner[j] = owner[j];
 }
