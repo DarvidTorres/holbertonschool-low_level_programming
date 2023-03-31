@@ -4,7 +4,7 @@
 #include <stdio.h>
 /**
 *struct op - struct op
-*@op: char 
+*@op: char
 *@f: pointer
 */
 typedef struct op
