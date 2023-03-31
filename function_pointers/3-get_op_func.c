@@ -20,7 +20,7 @@ op_t ops[] = {
 int i;
 while (ops[i].op && strlen(s) == 1)
 {
-if (*s == *ops[i].opp)
+if (*s == *ops[i].op)
 {
 return (ops[i].f);
 }
