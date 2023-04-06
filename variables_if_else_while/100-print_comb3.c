@@ -1,24 +1,24 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
-*main - main function
-*description: print two digits
-*return: 0
+* main - function
+*
+* Return: 0 on success
 */
-int main (void)
+int main(void)
 {
-int n = '0', m = '9';
-while (n != '9')
-{
-putchar(n);
-if (n != m)
-{
-putchar(m);
-putchar(',');
-putchar(' ');
-}
-n++;
-m--;
-}
-putchar('\n');
-return (0);
+	int i;
+	int j;
+
+	for (i = '0'; i < '9'; i++)
+	{
+		for (j = i + 1; j <= '9'; j++)
+		{
+			putchar(i);
+			putchar(j);
+			putchar(',');
+            putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
 }
